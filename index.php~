@@ -1,0 +1,41 @@
+
+    <!doctype html>
+    <head><center><style type="text/css">
+    body{
+    background-image: url(poze/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+    </style></center></head>
+    <title>LIIS::Index::</title>
+    <html>
+    <body>
+    <center>
+    <hr>
+    <h1>
+    Alegeti ce formular vreti sa completati
+    </h1>
+    <hr>
+    </center>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <table bgcolor="#FFFFF2" border="0" align="center" >
+    <tr>
+    <td>
+    <form action="actiune.php" method="POST">
+    <select name="alege" >
+    <option value="elevi">Formular CEAC pentru elevi</option>
+    <option value="parinti">Formular CEAC pentru parinti</option>
+    </select><br><br>
+    <input type="submit" name="Alege" value="Alege!"><br>
+    </form>
+    </td>
+    </tr>
+    </table>
+    </body>
+    </html>
+

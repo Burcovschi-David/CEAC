@@ -1,0 +1,19 @@
+<!doctype html>
+
+<head></head>
+<title>LIIS::Index::</title>
+<html>
+ <body bgcolor="#FFFFDA">
+  <hr>
+   <h1>
+    Alegeti ce formular vreti sa compeltati
+   </h1>
+   <hr>
+   <br><br>
+   <table bgcolor="#FFFFF2" border="0">
+    <tr>
+     <td>
+      <form action="actiune.php" method="POST">
+       <select name="alege" >
+        <option value="elevi">F
+
